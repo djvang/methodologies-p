@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+	<style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Shower Presentation Engine</h1>
+		<p>Yours Truly, Famous Inc.</p>
+	</header>
+
+	<section class="slide" id="cover">
+		<h2>Способы организации CSS-кода</h2>
+		<p><a target="_blank" href="https://www.facebook.com/ivan.golvinov">Ivan Golvinov</a></p>
+		<figure>
+			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+			<figcaption class="copyright right white">
+				<a href="http://fiftyfootshadows.net/">© John Carey</a>
+			</figcaption>
+		</figure>
+		<style>
+			#cover h2 {
+				margin: 30px 0 0;
+				color: white;
+				text-align: center;
+				font-size: 70px;
+			}
+
+			#cover p {
+				margin: 10px 0 0;
+				text-align: center;
+				color: white;
+				font-style: italic;
+				font-size: 20px;
+			}
+
+			#cover p a {
+				color: white;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<ol>
+			<li><a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a></li>
+			<li><a href="https://smacss.com/">SMACSS</a></li>
+			<li><a href="https://acss.io/">Atomic CSS</a></li>
+			<li><a href="http://krasimir.github.io/organic-css/">Organic CSS</a>, основанный на концепции <a href="https://habr.com/post/249223/">Atomic Design</a></li>
+			<li><a href="https://ru.bem.info/methodology/quick-start/">BEM</a></li>
+			<li><a href="https://ziscod.com/itcss-chto-eto-takoe/">ITCSS</a></li>
+			<li><a href="http://css-live.ru/articles/vsyo-chto-vam-nuzhno-znat-o-css-in-js.html">CSS-in-JS</a></li>
+			<li>Семантический и функциональный подход</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Holy Grail Layout</h2>
+		<p><a href="https://aleshaoleg.github.io/holy-grail-markup/raw/">Пример</a> всех популярных CSS-методологий</p> 
+		<p class="copyright">Созданы Олегом Алошкиным и Игорем Зеничем. Соавтор: Дмитрий Чисар. <a href="https://github.com/AleshaOleg/holy-grail-markup/blob/master/README.md">Github</a></p>
+	</section>
+
+	<section class="slide">
+		<h2>CSS - фреймворки</h2>
+		<ol>
+			<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+			<li><a href="https://getuikit.com/">Uikit</a></li>
+			<li><a href="https://bulma.io/">Bulma</a></li>
+			<li><a href="https://semantic-ui.com/">Semantic</a></li>
+		</ol>
+	</section>
+
+	<section class="slide" id="see-more">
+		<h2 class="shout">
+			<a href="https://github.com/djvang/shopy">GitHub</a>
+		</h2>
+		<style>
+			#see-more h2 {
+				font-size: 80px
+			}
+
+			#see-more img {
+				width: 0.72em;
+				height: 0.72em;
+			}
+		</style>
+	</section>
+
+	<footer class="badge">
+		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
+	</footer>
+
+	<div class="progress"></div>
+
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2018 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
